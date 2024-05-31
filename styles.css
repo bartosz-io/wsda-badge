@@ -3,3 +3,57 @@ body {
     text-align: center;
     margin-top: 50px;
 }
+
+button {
+    background-color: #5416b2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#badge {
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+}
+
+#imgInput {
+    display: none;
+}
+
+#dropZone {
+    width: 600px;
+    height: 100px;
+    border: 2px dashed rgb(204, 204, 204);
+    color: rgb(84, 22, 178);
+    text-align: center;
+    line-height: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+
+#dropZone:hover, #dropZone.highlight {
+    cursor: pointer;
+    border: 3px dashed #5416b2;
+}
+
+#capture {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin: 20px auto;
+}

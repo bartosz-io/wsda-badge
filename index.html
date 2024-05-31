@@ -7,7 +7,17 @@
     <title>Generate your badge!</title>
 </head>
 <body>
-    <h1>Hello, Parcel!</h1>
-    <script src="index.js"></script>
+    <input id="imgInput" type="file" accept="image/*">
+    <script src="index.js" type="module"></script>
+
+    <div class="wrapper">
+        <h1>Generate your Academy avatar</h1>
+        <div id="dropZone">Click or drop your profile image here</div>
+        <div id="capture">
+            <img id="badge" src="badge.png" alt="Badge">
+            <img src="avatar.png" id="avatar"></img>
+        </div>
+        <button id="btnCapture">Genarate badge</button>
+    </div>
 </body>
 </html>
