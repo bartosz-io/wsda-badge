@@ -11,13 +11,12 @@ button {
     border-radius: 20px;
     padding: 10px 20px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #avatar {
-    border-radius: 50%;
+    z-index: -1;
     width: 220px;
-    height: 220px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,6 +24,7 @@ button {
 }
 
 #badge {
+    border: 2px solid #c49cff;
     border-radius: 10px;
     width: 600px;
     height: 600px;
