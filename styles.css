@@ -26,8 +26,9 @@ button {
 #badge {
     border: 2px solid #c49cff;
     border-radius: 10px;
-    width: 600px;
-    height: 600px;
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
 }
 
 #imgInput {
@@ -35,7 +36,7 @@ button {
 }
 
 #dropZone {
-    width: 600px;
+    max-width: 600px;
     height: 100px;
     border: 2px dashed rgb(204, 204, 204);
     color: rgb(84, 22, 178);
@@ -52,8 +53,9 @@ button {
 }
 
 #capture {
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
     position: relative;
     margin: 20px auto;
 }
